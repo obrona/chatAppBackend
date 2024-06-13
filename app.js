@@ -44,9 +44,9 @@ io.on('connection', (socket) => {
             console.log(err)
         }
     })
-    
-    
 
+    socket.on('reconnect', () => {})
+    
     socket.on('disconnect', () => {})
 })
 
