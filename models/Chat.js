@@ -4,7 +4,7 @@ const chatSchema = new mongoose.Schema({
     username: String,
     module: String,  
     message: String,
-    avatar: String,
+    imageId: String,
     timestamp: {type: Date, default: Date.now}
 })
 
